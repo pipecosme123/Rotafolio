@@ -1,0 +1,146 @@
+.carrousel {
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.swiper-slide img {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 0.125rem 0.125rem 0.25rem 0 rgb(0 0 0 / 20%);
+}
+
+.noActivate{
+    display: none;
+}
+
+.activate{
+    display: block;
+    position: absolute;
+    background: #df1b16;
+    color: #fff;
+    font-weight: 700;
+    width: 200px;
+    padding: 1em;
+    right: 100px;
+    top: 00px;
+    z-index: 100000;
+    border-radius: 2em;
+    font-size: 1em;
+    transition: 1s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1600px) {
+    .carrousel {
+        margin: 1rem auto;
+    }
+
+    .swiper-slide img {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+        padding: 1rem;
+        box-shadow: 0.125rem 0.125rem 0.25rem 0 rgb(0 0 0 / 20%);
+    }
+
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+
+    body {
+        padding-top: 3rem;
+    }
+
+    .carrousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 90%;
+        margin: 1rem auto;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+        box-shadow: 0.125rem 0.125rem 0.25rem 0 rgb(0 0 0 / 20%);
+    }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+    .carrousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 100%;
+        margin: 1rem auto;
+    }
+
+    .swiper-slide img {
+        width: 95%;
+        height: 95%;
+        margin: 0 auto;
+        padding: 1rem;
+        box-shadow: 0.125rem 0.125rem 0.25rem 0 rgb(0 0 0 / 20%);
+    }
+}
+
+@media (max-width: 770px) {
+    body {
+        margin: 7px auto;
+    }
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    body {
+        margin: 0px ;
+    }
+    .carrousel {
+        width: 90%;
+        height: 90%;
+
+    }
+
+    .swiper-slide img {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 812px) and (orientation: landscape){
+    body {
+        margin: 10px auto;
+    }
+
+    .carrousel {
+        width: 1000%;
+        margin-top: 4px;
+    }
+
+    .swiper-slide img {
+        width: 75%;
+        height: 75%;
+    }
+
+    .activate{
+        display: block;
+        position: absolute;
+        background: #df1b16;
+        color: #fff;
+        font-weight: 700;
+        width: 130px;
+        padding: 0.5em;
+        right: 10px;
+        top: 00px;
+        z-index: 100000;
+        border-radius: 2em;
+        font-size: 0.7em;
+        transition: 1s;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}

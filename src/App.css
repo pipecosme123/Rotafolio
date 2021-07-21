@@ -1,4 +1,10 @@
+@font-face {
+  font-family: "ColgateReady-Regular";
+  src: url('./fonts/ColgateReady-Regular.ttf');
+}
+
 .App {
+  font-family: "ColgateReady-Regular";
   text-align: center;
 }
 

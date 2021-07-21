@@ -1,0 +1,115 @@
+.folleto {
+    width: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f_folleto {
+    width: 700px;
+    padding: 0 16px 16px 16px;
+    margin: 32px;
+    border: 2px solid #939497;
+}
+
+/* ENCABEZADO */
+.LogoColgate {
+    width: 217px;
+    height: 168px;
+}
+
+.f_encabezado {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f_textoEncabezado {
+    text-align: right;
+    font-size: 1em;
+}
+
+.f_textoEncabezado .titulo {
+    font-size: 2.4em;
+    margin-top: 0;
+    color: #79549b;
+}
+
+.f_textoEncabezado .subtitulo {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+/* f_contexto */
+
+.f_contexto {
+    padding: 0 2em;
+}
+
+.f_contexto .f_textoInicial {
+    font-size: 32px;
+    text-align: justify;
+    color: #d2010d;
+}
+
+.f_puntos{
+    height: auto;
+}
+
+.f_puntos h3{
+    font-size: 32px;
+    text-align: justify;
+    font-weight: 600;
+    color: #d2010d;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: url('../img/lista.jpg') no-repeat left top;
+    height: auto;
+    padding-left: 25px;
+    text-align: justify;
+    margin: 15px 0;
+    font-size: 24px;
+    color: #737277;
+}
+
+.f_recuadro{
+    color: #fff;
+    padding: 5px 16px;
+    border-radius: 32px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.f_recuadro.rojo{ background: #d2010d;}
+.f_recuadro.morado{ background: #79549b;}
+
+img.ImagenDelLogo{
+    width: 300px;
+    margin: 16px 0;
+}
+
+img.ImagenDelBannerFinal{
+    width: 650px;
+    margin: 16px 0;
+    z-index: 10;
+    bottom: 32px;
+}
+
+@media only screen and (max-width: 480px) {
+    .folleto {
+        width: 100%;
+        margin: 32px 190px; 
+    }
+    
+    .f_folleto {
+        width: 700px;
+    }
+    
+}
