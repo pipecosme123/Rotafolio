@@ -82,8 +82,8 @@
     }
 
     .swiper-slide img {
-        width: 95%;
-        height: 95%;
+        width: 80%;
+        height: 80%;
         margin: 0 auto;
         padding: 1rem;
         box-shadow: 0.125rem 0.125rem 0.25rem 0 rgb(0 0 0 / 20%);
@@ -118,7 +118,7 @@
     }
 
     .carrousel {
-        width: 1000%;
+        width: 100%;
         margin-top: 4px;
     }
 
