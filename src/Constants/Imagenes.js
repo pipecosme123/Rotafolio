@@ -27,12 +27,34 @@ import Slider21 from "../img/rotafolio/21.jpg";
 import Slider22 from "../img/rotafolio/22.jpg";
 import Slider23 from "../img/rotafolio/23.jpg";
 
-let i=0;
+import PPAplication from "../img/protocolo/imgPPA.jpg";
+import PPAplicationM from "../img/protocolo/total.svg";
+import PPAplicationImagen from "../img/protocolo/imagen.png";
+import pp_aplicacion_d_01 from "../img/protocolo/Parte1.svg";
+import pp_aplicacion_d_02 from "../img/protocolo/Parte2.svg";
+import pp_aplicacion_d_03 from "../img/protocolo/Parte3.svg";
+import pp_aplicacion_d_04 from "../img/protocolo/Parte4.svg";
+import pp_aplicacion_d_05 from "../img/protocolo/Parte5.svg";
+
+
+
+let i = 0;
 export const Imagenes = {
     "LogoColgate": LogoColgate,
     "folletoImagenPrincipal": folletoImagenPrincipal,
     "folletoLogo": folletoLogo,
     "folletoBannerFinal": folletoBannerFinal
+};
+
+export const PPAplicacion = {
+    "PPAplication": PPAplication,
+    "PPAplicationM": PPAplicationM,
+    "PPAplicationImagen": PPAplicationImagen,
+    "pp_aplicacion_d_01": pp_aplicacion_d_01,
+    "pp_aplicacion_d_02": pp_aplicacion_d_02,
+    "pp_aplicacion_d_03": pp_aplicacion_d_03,
+    "pp_aplicacion_d_04": pp_aplicacion_d_04,
+    "pp_aplicacion_d_05": pp_aplicacion_d_05
 }
 
 export const SlidersRotafolio = [

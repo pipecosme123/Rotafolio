@@ -1,0 +1,57 @@
+body {
+   margin: 0px;
+}
+
+.Pre_Post_Aplicacion {
+width: 100%;
+}
+
+.Pre_Post_Aplicacion img.img_ppa{
+   width: 100%;
+}
+
+.noVisible{
+   display: none;
+}
+
+.divMovil{
+   margin: 1em 2em;
+   /* width: 100%; */
+}
+
+
+.divMovil .logoColgate_ppa{
+   position: absolute;
+   width: 110px;
+   top: 0px;
+   left: 1.2em;
+}
+
+.divMovil h2{
+   font-size: 0.8em;
+}
+
+.divMovil div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.divMovil div .imgBoton{
+   align-self: flex-end;
+   width: 70%;
+   margin: 1em 0 0;
+}
+
+@media only screen and (max-width: 1440px) {
+   body {
+      margin: 0px;
+      padding: 0px;
+   }
+
+   .img_ppa {
+      top: 130px;
+      right: 50px;
+      transform: scale(1);
+   }
+}
